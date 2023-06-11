@@ -9,7 +9,7 @@
   background-color: white;
   border-radius: 8px;
   padding: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -34,7 +34,7 @@
 .newCard_container img {
   object-fit: contain;
   max-width: 100%;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
   border-radius: 6px;
   padding: 3px;
 }
@@ -105,14 +105,14 @@
   .newCard_container {
     /* padding: 10px; */
     width: 100%;
-    margin: 3px;
+    padding: 10px;
     /* max-width: 400px; */
   }
 }
 @media only screen and (max-width: 350px) {
   .newCard_container {
     /* padding: 5px; */
-    margin: 3px;
+    padding: 10px;
     /* max-width: 250px; */
     width: 100%;
   }
