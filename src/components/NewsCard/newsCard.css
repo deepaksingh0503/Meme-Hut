@@ -44,8 +44,8 @@
   width: 100%;
   display: flex;
   gap: 15px;
+  margin: 0px;
   margin-top: 10px;
-  margin-left: 20px;
   font-weight: 500;
   width: 100%;
   padding: 5px;
@@ -108,9 +108,12 @@
     /* padding: 10px; */
     width: 100%;
     padding: 5px;
-    margin: 0px 10px;
+    margin: 10px 0px;
 
     /* max-width: 400px; */
+  }
+  .profiel_pic {
+    margin-top: 8px;
   }
   .meme_icons {
     margin-left: 5px;
@@ -126,10 +129,13 @@
   .newCard_container {
     /* padding: 5px; */
     padding: 10px;
-    margin: 0px 10px;
+    margin: 10px 0px;
 
     /* max-width: 250px; */
     width: 100%;
+  }
+  .profiel_pic {
+    margin-top: 5px;
   }
   .meme_icons {
     margin-left: 5px;
