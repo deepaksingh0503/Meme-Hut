@@ -92,12 +92,11 @@
 }
 .meme_author_details {
   width: 100%;
-  margin: 0;
+  margin-left: 10px;
   padding: 0px 10px;
 }
 .meme_author_details p span {
   font-weight: 500;
-  margin: 5px;
   font-size: 0.85rem;
 }
 .meme_author_details p {
@@ -108,15 +107,36 @@
   .newCard_container {
     /* padding: 10px; */
     width: 100%;
-    padding: 10px;
+    padding: 5px;
+    margin: 0;
     /* max-width: 400px; */
+  }
+  .meme_icons {
+    margin-left: 5px;
+    padding: 0;
+  }
+  .meme_details,
+  .meme_author_details {
+    margin-left: 5px;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 350px) {
   .newCard_container {
     /* padding: 5px; */
     padding: 10px;
+    margin: 0;
+
     /* max-width: 250px; */
     width: 100%;
+  }
+  .meme_icons {
+    margin-left: 5px;
+    padding: 0;
+  }
+  .meme_details,
+  .meme_author_details {
+    margin-left: 5px;
+    padding: 0;
   }
 }
