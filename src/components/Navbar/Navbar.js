@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./navbar.css";
-import { useState } from "react";
 export default class Navbar extends Component {
   render() {
-    let { enable } = this.props;
+    // let { enable } = this.props;
 
     return (
       <>

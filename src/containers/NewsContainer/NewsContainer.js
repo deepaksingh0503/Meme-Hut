@@ -3,7 +3,6 @@ import NewsCard from "../../components/NewsCard/NewsCard";
 import "./newsContainer.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import LoadingBar from "../../components/LoadingBar/LoadingBar";
-import { PropTypes } from "prop-types";
 export default class NewsContainer extends Component {
   constructor() {
     super();
@@ -43,7 +42,7 @@ export default class NewsContainer extends Component {
   };
 
   render() {
-    let { enable } = this.props;
+    // let { enable } = this.props;
 
     return (
       <>

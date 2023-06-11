@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./newsCard.css";
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
@@ -14,7 +14,7 @@ export default class NewsCard extends Component {
     };
   }
   render() {
-    let { title, urlToImage, newsUrl, author, publishedAt, liked } = this.props;
+    let { title, urlToImage, newsUrl, author, liked } = this.props;
 
     const shareBtnClicked = () => {
       let text = newsUrl;
