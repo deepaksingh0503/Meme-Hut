@@ -8,8 +8,9 @@
   width: 400px;
   background-color: white;
   border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 10px;
+  /* padding: 15px; */
+  margin: 15px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -36,17 +37,17 @@
   max-width: 100%;
   /* border: 2px solid gray; */
   border-radius: 6px;
-  padding: 3px;
+  /* padding: 3px; */
 }
 
 .profiel_pic {
   width: 100%;
   display: flex;
   gap: 15px;
-  margin: 8px 0px;
-  margin-top: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
   font-weight: 500;
-
+  width: 100%;
   padding: 5px;
   cursor: pointer;
   align-items: center;
@@ -59,16 +60,18 @@
   gap: 20px;
   height: auto;
   width: 100%;
-  padding-top: 10px;
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 15px;
+  /* margin-left: 10px; */
   align-items: center;
 }
 .post_meme_icons {
   background-color: rgb(255, 255, 255);
+  /* margin: 0px 0px 0px 15px; */
   /* box-shadow: 1px 1px 1px 1px rgba(62, 60, 60, 0.2); */
   box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
     0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  width: 40px;
+  width: 35px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -81,7 +84,7 @@
 .meme_details {
   width: 100%;
   font-size: 0.85rem;
-  margin-left: 10px;
+  padding: 0px 15px;
 }
 .meme_details p {
   padding: 0;
@@ -90,7 +93,7 @@
 .meme_author_details {
   width: 100%;
   margin: 0;
-  pad: 0;
+  padding: 0px 10px;
 }
 .meme_author_details p span {
   font-weight: 500;

@@ -64,7 +64,6 @@ export default class NewsContainer extends Component {
                       newsUrl={element.postLink}
                       key={element.url}
                       author={element.author}
-                      publishedAt={"2023-06-11T05:17:44Z"}
                       liked={element.ups}
                     />
                   );
