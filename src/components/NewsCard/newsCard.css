@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newCard_container {
+  width: 350px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 1px rgba(189, 189, 189, 0.2);
+  overflow: hidden;
+}
+
+.newCard_container h3 {
+  padding: 4px;
+}
+.newCard_container h4 {
+  padding: 4px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.newCard_container p {
+  padding: 4px;
+  margin: auto;
+  line-height: 26px;
+}
+.newCard_container img {
+  object-fit: contain;
+  max-width: 100%;
+  border: 2px solid gray;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.profiel_pic {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  margin: 8px 0px;
+  margin-top: 0px;
+  font-weight: 500;
+
+  padding: 5px;
+  cursor: pointer;
+  align-items: center;
+  height: auto;
+}
+
+.meme_icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+.post_meme_icons {
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 1px 1px 1px 1px rgba(62, 60, 60, 0.2); */
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
+    0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.post_meme_icons :hover {
+  color: rgb(254, 95, 95);
+}
+.meme_details {
+  width: 100%;
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+.meme_details p {
+  padding: 0;
+  margin-top: 4px;
+}
+.meme_author_details {
+  width: 100%;
+  margin: 0;
+  pad: 0;
+}
+.meme_author_details p span {
+  font-weight: 500;
+  margin: 5px;
+  font-size: 0.85rem;
+}
+.meme_author_details p {
+  padding: 0;
+  font-size: 0.85rem;
+}
+@media only screen and (max-width: 500px) {
+  .newCard_container {
+    padding: 10px;
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .newCard_container {
+    padding: 5px;
+    max-width: 250px;
+  }
+}

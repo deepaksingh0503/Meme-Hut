@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar_container {
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background: rgb(246, 185, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 185, 233, 1) 8%,
+    rgba(247, 123, 187, 1) 39%,
+    rgba(255, 134, 181, 1) 66%,
+    rgba(243, 91, 181, 1) 100%
+  );
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.navbar_logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_logo h2 {
+  color: white;
+  font-size: xx-large;
+}
+.navbar_links {
+  display: flex;
+  font-weight: 400;
+  font-size: 1.1rem;
+  align-items: center;
+  color: white;
+  flex-grow: 6;
+  gap: 20px;
+}
+.navbar_links p {
+  cursor: pointer;
+}
+.navbar_links p a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+.navbar_links p:hover {
+  transform: scale(1.1);
+  color: rgb(199, 199, 199);
+  transition-duration: 0.2s;
+}
+
+.navbar_links p a:active {
+  transform: scale(9.8);
+  color: rgb(0, 0, 0);
+}
+.nav_button {
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: wheat;
+  cursor: pointer;
+  border: 1px solid white;
+  margin-right: 20px;
+}
+.navbar_button button {
+  padding: 6px 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: none;
+  color: black;
+  background-color: rgb(56, 3, 163);
+}
+.logo {
+  max-width: 80px;
+  padding-left: 10px;
+  margin-left: 20px;
+  max-height: 70px;
+}
+@media only screen and (max-width: 520px) {
+  .navbar_container h2 {
+    font-size: 1.2rem;
+  }
+  .navbar_container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    max-width: 60px;
+    max-height: 50px;
+  }
+
+  .navbar_container p {
+    font-size: 0.9rem;
+  }
+  .navbar_links {
+    margin-left: 50px;
+  }
+  .navbar_button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar_container h2 {
+    font-size: 1.2rem;
+  }
+  .navbar_container {
+    height: 60px;
+  }
+  .logo {
+    max-width: 50px;
+    max-height: 40px;
+  }
+
+  .navbar_container p {
+    font-size: 0.9rem;
+  }
+  .navbar_links {
+    margin-left: 50px;
+  }
+  .navbar_button {
+    display: none;
+  }
+}

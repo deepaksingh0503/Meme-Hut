@@ -1,0 +1,12 @@
+.LoadingBar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.LoadingBar img {
+  border-radius: 500px;
+  max-height: 100px;
+  max-width: 100px;
+}
